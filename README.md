@@ -3,6 +3,12 @@
 This project is a basic C [SQLite][] project that uses [CMake][] as a build system.
 
 
+It could be used as a base for any CMake/SQLite project. Just fork it, clone it
+and execute the `rename_project.sh` script. You will be prompted to enter the
+new project name, the new executable name and the new git repository, but you
+can keep the autodetected values. Finally, just commit and push the result to
+your repository.
+
 ## Overview
 
 This project demonstrates the usage of the SQLite C library. It, first, tries
