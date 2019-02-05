@@ -52,6 +52,29 @@ to edit their databases and verify that their code is working like they expect.
 sudo apt install git build-essential pkg-config cmake cmake-data libsqlite3-dev
 ```
 
+## Build instructions
+
+```sh
+# Clone this repo
+git clone https://gitlab.com/aminosbh/basic-sqlite-project.git
+cd basic-sqlite-project
+
+# Create a build folder
+mkdir build
+cd build
+
+# Build
+cmake ..
+make
+
+# Run
+./basic-sqlite-project
+```
+
+### Open the project with an IDE under Linux
+
+See [IDE_USAGE.md](IDE_USAGE.md) for details.
+
 ## License
 
 Author: Amine B. Hassouna [@aminosbh](https://gitlab.com/aminosbh)
